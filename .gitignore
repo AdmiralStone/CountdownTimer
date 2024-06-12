@@ -1,0 +1,49 @@
+# Ignore build directories
+build/
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.lib
+
+# Ignore Qt user-specific files
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+*.qrc
+*.pdb
+*.ipch
+*.db
+*.idb
+*.log
+
+# Ignore QtCreator specific files
+*.autosave
+*.user.*
+
+# Ignore generated files
+*.moc.cpp
+*.moc.o
+*.moc.obj
+*.qrc.cpp
+*.qrc.o
+*.qrc.obj
+*.rcc
+*.rcc.o
+*.rcc.obj
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
